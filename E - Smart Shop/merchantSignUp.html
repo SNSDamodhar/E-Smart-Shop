@@ -1,0 +1,68 @@
+<html>
+     <head>
+          <link rel="stylesheet" href="static/css/SignUp.css">
+          <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+          <link rel="stylesheet" href="static/css/navbar.css">
+          <title>Merchant SignUp</title>
+     </head>
+
+     <body style = "background-color: #F3EBF6;">
+          <header>
+               <img src="static/images/logo.png">
+         </header>
+          <div class="main">
+               <p class="sign" align="center">Merchant Sign Up</p>
+               <form class="form1" action = "merchantSignUp.php" method = "post">
+                    <input class="un " type="text" align="center" name = "userName" placeholder="Name" required>
+                    <input class="mailid " type="email" align="center" name = "mailid" placeholder="Mailid" required>
+                    <input class="pass" type="password" align="center" name = "password" placeholder="Password" required>
+                    <input type="tel" class="phone" name="phone" name = "phone" placeholder = "phonenumber" equired>
+                    <input class="shopname " type="text" align="center" name = "shopname" placeholder="shopname" required>
+                    <input class="aadhar" type="number" align="center" name = "aadhar" placeholder="Aadhar Number" required>
+                    <input class="pan" type="text" align="center" name = "pan"  placeholder="Pancard Number" required>
+                    <input class="gstin" type="text" align="center" name = "gstin" placeholder="GSTIN" required>
+                    <input class="category" type="text" align="center" name = "category" placeholder="Merchant Category" required>
+                    <input class="pincode" type="number" align="center" name = "pincode" placeholder="Pincode" required>
+                    <input class="city" type="text" align="center" name = "city" placeholder="city/town" required>
+                    <input class="state" type="text" align="center" name = "state" placeholder="state" list = "states" required>
+                    <datalist id = "states">
+                         <option value="Andhra Pradesh"></option>
+                         <option value="Arunachal Pradesh"></option>
+                         <option value="Assam"></option>
+                         <option value="Bihar"></option>
+                         <option value="Chhattisgarh"></option>
+                         <option value="Goa"></option>
+                         <option value="Gujarat"></option>
+                         <option value="Haryana"></option>
+                         <option value="Himachal Pradesh"></option>
+                         <option value="Jharkhand"></option>
+                         <option value="Karnataka"></option>
+                         <option value="Kerala"></option>
+                         <option value="Madhya Pradesh"></option>
+                         <option value="Maharashtra"></option>
+                         <option value="Manipur"></option>
+                         <option value="Meghalaya"></option>
+                         <option value="Mizoram"></option>
+                         <option value="Nagaland"></option>
+                         <option value="Odisha"></option>
+                         <option value="Punjab"></option>
+                         <option value="Rajasthan"></option>
+                         <option value="Sikkim"></option>
+                         <option value="Tamil Nadu"></option>
+                         <option value="Telangana"></option>
+                         <option value="Tripura"></option>
+                         <option value="Uttar Pradesh"></option>
+                         <option value="Uttarakhand"></option>
+                         <option value="West Bengal"></option>
+                    </datalist>
+                    <!--<a class="submit" align="center">Sign in</a>-->
+                    <button class="submit" align="center">Sign Up</button>
+                    <p class="forgot" align="center"><a href="#">Forgot Password?</p>
+               </form>
+          </div>
+
+     </body>
+
+</html>

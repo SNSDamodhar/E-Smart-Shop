@@ -1,0 +1,12 @@
+<?php
+	session_start();
+	if(isset($_SESSION['merchantName']))
+	{
+		session_destroy();
+		header("location:merchantLogin.html");
+	}
+	else
+	{
+		header("location:index.html");
+	}
+?>

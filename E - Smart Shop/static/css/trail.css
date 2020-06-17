@@ -1,0 +1,11 @@
+<style type="text/css" media="screen">
+.outer {background-color:lightgray;}
+.outer > * {
+  display:inline-block;
+  vertical-align:middle;
+  background-color:lightgreen;
+}
+.one {max-width:300px; max-height:300px; border: 10px;}
+.two {max-width:100px; max-height:100px;}
+.three {max-width:100px; max-height:100px;}
+</style>
